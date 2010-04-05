@@ -1,0 +1,27 @@
+This is Perl module LWP::Protocol::ForInstance.
+
+INSTALLATION
+
+LWP::Protocol::ForInstance installation is straightforward. If your CPAN shell is set up,
+you should just be able to do
+
+    % cpan LWP::Protocol::ForInstance
+
+Download it, unpack it, then build it as per the usual:
+
+    % perl Makefile.PL
+    % make && make test
+
+Then install it:
+
+    % make install
+
+DOCUMENTATION
+
+LWP::Protocol::ForInstance documentation is available as in POD. So you can do:
+
+    % perldoc LWP::Protocol::ForInstance
+
+to read the documentation online with your favorite pager.
+
+Ryuta Kamizono
