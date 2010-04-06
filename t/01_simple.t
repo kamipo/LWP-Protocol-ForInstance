@@ -15,7 +15,7 @@ my $ua2 = LWP::UserAgent->new;
 my $proto1 = LWP::Protocol::create('http', $ua1);
 my $proto2 = LWP::Protocol::create('http', $ua2);
 
-is ref $proto1, 'LWP::Protocol::http10';
-is ref $proto2, 'LWP::Protocol::http';
+isa_ok $proto1, 'LWP::Protocol::http10';
+isa_ok $proto2, 'LWP::Protocol::http';
 
 done_testing;
